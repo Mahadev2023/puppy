@@ -1,6 +1,8 @@
 package puppy
 
 import (
+	"fmt"
+
 	"github.com/Mahadev2023/dog"
 )
 
@@ -10,10 +12,15 @@ func Bark() string {
 
 func Barks() string {
 	return `Woof Woof ...`
+
 }
 
 func BigBarks() string {
 	return dog.WhenGrounUp(Bark())
+}
+
+func from12() {
+	fmt.Println("I am  from versionn 1.2.0")
 }
 
 // https://github.com/Mahadev2023/puppy
@@ -32,3 +39,5 @@ Enter file in which to save the key (/c/Users/godbo/.ssh/id_ed25519):
 //eval "$(ssh-agent -s)"
 //ssh-add ~/.ssh/id_ed25519
 //
+
+//https://github.com/Mahadev2023/dog/commit/ba6c3ad54a06f127c749d013b084d31133c688fe
